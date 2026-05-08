@@ -1,0 +1,76 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+    position: relative;
+}
+
+body::before{
+
+    content: "";
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("gym1.jpg");
+    background-size: cover;
+
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.container {
+    background: #fbc171d3; 
+    width: 450px;
+    margin: 1% auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+h1{
+    color: #3c2503;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 6cap;
+    /*text-align: center;*/
+}
+
+button{
+    border: 1px solid black;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background: rgb(34, 24, 2);
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*display: block; button has automatic behaviou to be inline in one line*/
+    /*margin-left: 540px ;*/
+}
+
+#save-btn{
+    background-color: rgb(188, 100, 0);
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*display: block;
+    margin-top: -40px ;*/
+    margin-left: 90px;
+}
+
+p{
+    font-size: 2rem;
+}
